@@ -1,18 +1,18 @@
 .header-outer-container {
-  position: sticky;
+  position: fixed;
   top: 0;
-  display: flex;
-  justify-content: center;
+  display: fixed;
+  justify-content: space-between;
   align-items: center;
-  /* background-color: rgb(148, 132, 132); */
   background-color: rgb(20, 20, 20);
-  /* background-color: transparent; */
+  background-color: transparent;
+  width: 100%;
+  padding: 20px;
   height: 10vh;
   color: white;
-  transition: all 0.5%;
+  transition: all o.5s;
   transition-timing-function: ease-in;
   z-index: 1;
-  /* background-color: red; */
 }
 
 .header-container {
@@ -29,13 +29,13 @@
   align-items: center;
   list-style: none;
   cursor: pointer;
+  font-size: 18px;
 }
 
 .header-right ul {
   width: 150%;
   display: flex;
   justify-content: space-around;
-  align-items: center;
   list-style: none;
   cursor: pointer;
 }
