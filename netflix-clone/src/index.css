@@ -1,13 +1,14 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&family=Lexend+Zetta:wght@100..900&family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
-:root {
-  --font-base:san-serif;
-  --font-second-base: "Inter", san-serif;
+:root{
+  --font-basic: 'Lexend', sans-serif;
+  --font-second-base: 'Inter', sans-serif;
   --bg-color: #111;
-  --primary-color: #fff;
+  --primary-color: #ffffff;
   --secondary-color: #e50914;
+
 }
 
 * {
