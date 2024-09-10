@@ -7,7 +7,7 @@ const Banner = () => {
   useEffect(() => {
     (async () => {
       try {
-        const request = await axios.get(requests.fetchNetflixOriginals);
+        const request = await axios(requests.fetchNetflixOriginals);
         console.log(request);
         setMovie(
           request?.data.results[
@@ -20,7 +20,6 @@ const Banner = () => {
     })();
   }, []);
 
-  // console.log(movie);
 
   function truncate(str, max) {
     return str?.length > max ? str.substr(0, max - 1) + "…" : str;
